@@ -53,6 +53,9 @@ header{
 }
 
 /* Collection section style */
+.container{
+    margin-bottom: 100px;
+}
 .header-text{
     text-align: center;
     padding: 40px;
@@ -113,4 +116,64 @@ header{
 .fa-star{
     color: #FB8200;
 }
+.see-more-button a{
+    display: block;
+    text-align: right;
+    border:none;
+    background-color: white;
+    text-decoration: none;
+    color: #E02C6D;
+    margin-right: 25px;
+}
 
+/* spetial part style */
+.articel-heading{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+.camera-shop-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+.picture img{
+    width: 700px;
+    height: 485px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 60px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.shop-details{
+    margin: 10px;
+    border-radius: 10px;
+   
+    padding: 40px;
+}
+.shop-details h1{
+    font-size: 50px;
+}
+.shop-details p{
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+/* footer part style */
+.footer{
+    padding: 50px 0;
+    background-color: #0a0826;
+    text-align: center;
+    color: #fff;
+}
+.footer h2{
+    font-size: 24px;
+    
+}
+.social-media i{
+    padding: 10px;
+}
+  
